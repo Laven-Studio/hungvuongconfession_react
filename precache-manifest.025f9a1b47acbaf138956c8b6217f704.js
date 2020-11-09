@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b6627a3c5c36c5d8282827a9808f9f45",
+    "revision": "22b1205ab75aafb13acf52de4b39f0ae",
     "url": "/index.html"
   },
   {
-    "revision": "f29196c24037d534369a",
-    "url": "/static/css/main.3f5d584b.chunk.css"
+    "revision": "a30bf0c8f9b35b232b5f",
+    "url": "/static/css/main.91a034d6.chunk.css"
   },
   {
-    "revision": "9b5da3d4324bbf75520e",
-    "url": "/static/js/2.3672279b.chunk.js"
+    "revision": "c91dbcb5d73e592347d6",
+    "url": "/static/js/2.6d4cec17.chunk.js"
   },
   {
     "revision": "362d9983e570d7c34eee61306a4f3fa7",
-    "url": "/static/js/2.3672279b.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.6d4cec17.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f29196c24037d534369a",
-    "url": "/static/js/main.245923fb.chunk.js"
+    "revision": "a30bf0c8f9b35b232b5f",
+    "url": "/static/js/main.5ead5df9.chunk.js"
   },
   {
     "revision": "624900b5d058c269ab9d",
@@ -278,6 +278,42 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "eee0a3136003eb4570d2193c3e52b7f0",
     "url": "/static/media/GoogleSans-ThinItalic.eee0a313.eot"
+  },
+  {
+    "revision": "5f2ce7df2a2e8570f4c32a44414df347",
+    "url": "/static/media/InterBlack.5f2ce7df.ttf"
+  },
+  {
+    "revision": "91e5aee8f44952c0c14475c910c89bb8",
+    "url": "/static/media/InterBold.91e5aee8.ttf"
+  },
+  {
+    "revision": "bd9525f1099e9f5845f6aef2956e9fb8",
+    "url": "/static/media/InterExtraBold.bd9525f1.ttf"
+  },
+  {
+    "revision": "909744bbb5a7ede41ce522a1507e952c",
+    "url": "/static/media/InterExtraLight.909744bb.ttf"
+  },
+  {
+    "revision": "6ffbefc66468b90d7af1cbe1e9f13430",
+    "url": "/static/media/InterLight.6ffbefc6.ttf"
+  },
+  {
+    "revision": "5ff1f2a9a78730d7d0c309320ff3c9c7",
+    "url": "/static/media/InterMedium.5ff1f2a9.ttf"
+  },
+  {
+    "revision": "515cae74eee4925d56e6ac70c25fc0f6",
+    "url": "/static/media/InterRegular.515cae74.ttf"
+  },
+  {
+    "revision": "ec60b23f3405050f546f4765a9e90fec",
+    "url": "/static/media/InterSemiBold.ec60b23f.ttf"
+  },
+  {
+    "revision": "35b7cf4cc47ac526b745c7c29d885f60",
+    "url": "/static/media/InterThin.35b7cf4c.ttf"
   },
   {
     "revision": "9b6153e65988b5a512764f28288eb49d",
