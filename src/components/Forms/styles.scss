@@ -1,0 +1,63 @@
+@import "../../styles/lavenst.scss";
+
+.confess-form-mini.lixi {
+    & textarea {
+        margin-top: 24px;
+    }
+
+    & .box {
+        & .icon {
+            font-size: 24px;
+            color: #9a9a9a;
+        }
+
+        & input {
+            border: none;
+            outline: none;
+            background: transparent;
+            border-radius: 0;
+            margin-left: 16px;
+            font-weight: 500;
+            font-size: 16px;
+
+            &::placeholder {
+                color: #bdbdbd;
+            }
+        }
+
+        @include mobile {
+            margin-bottom: 38px;
+        }
+
+        @include tablet {
+            margin-bottom: 38px;
+        }
+    }
+
+    & .confess_image_container {
+        & .change_image_btn {
+            position: absolute;
+            z-index: 9;
+            padding: 8px 16px;
+            border-radius: 8px;
+            background: rgba(255,255,255,.55);
+            cursor: pointer;
+            backdrop-filter: blur(20px) saturate(280%);
+        }
+
+        & .image::after {
+            padding-bottom: 200%;
+        }
+    }
+
+    & .confess_submit_container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        & button {
+            position: relative;
+            white-space: nowrap;
+        }
+    }
+}
