@@ -300,7 +300,7 @@ class ConfessPost extends Component {
             var ngayTao = new Date(data.ngayTao);
             return(
               <div className="confess_container_parent">
-                {i % 2 === 0 ? <GoogleAd/> : null }
+                {i % 2 === 0 ? null : null }
                 <div to={`/post/${data._id}`} key={`${data._id}`} className={`confess_container`} style={{}}>
                     <p className="hastag">
                       {data.hashtag != '' ? '# ' + data.hashtag : "CFS" + data.confess_id}
@@ -368,7 +368,7 @@ class ConfessPost extends Component {
     
             return(
               <div className="confess_container_parent">
-                {i % 5 === 0 ? <GoogleAd/> : null}
+                {i % 5 === 0 ? null : null}
                 <div to={`/post/${data._id}`} key={`${data._id}`} className={`confess_container hasAudio`} style={{}}>
                     <p className="hastag">
                       {data.hashtag != '' ? '# ' + data.hashtag : "CFS" + data.confess_id}
