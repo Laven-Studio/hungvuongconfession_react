@@ -15,6 +15,7 @@ import { getConfessFrom } from '../../functions/API';
 import {SplashScreen} from '../Splash_Screen';
 import {ReactionBox} from './Reaction';
 import {PictureModal} from './Modal';
+import {GoogleAd} from '../Google';
 
 import AdsImage from '../../styles/resources/tet.jpg';
 
@@ -160,7 +161,7 @@ class ConfessSinglePost extends Component {
 class AdsPost extends Component {
   render() {
     return(
-      <div style={{display: 'block', height: "400px"}} className={`confess_container advertisement`}>
+      <div style={{display: 'block', marginTop: "512px",position: "relative"}} className={`advertisement`}>
       </div>
     )
   }
@@ -299,7 +300,7 @@ class ConfessPost extends Component {
             var ngayTao = new Date(data.ngayTao);
             return(
               <div className="confess_container_parent">
-                {i % 5 === 0 ? <AdsPost/> : null}
+                {i % 2 === 0 ? <GoogleAd/> : null }
                 <div to={`/post/${data._id}`} key={`${data._id}`} className={`confess_container`} style={{}}>
                     <p className="hastag">
                       {data.hashtag != '' ? '# ' + data.hashtag : "CFS" + data.confess_id}
@@ -367,7 +368,7 @@ class ConfessPost extends Component {
     
             return(
               <div className="confess_container_parent">
-                {i % 5 === 0 ? <AdsPost/> : null}
+                {i % 5 === 0 ? <GoogleAd/> : null}
                 <div to={`/post/${data._id}`} key={`${data._id}`} className={`confess_container hasAudio`} style={{}}>
                     <p className="hastag">
                       {data.hashtag != '' ? '# ' + data.hashtag : "CFS" + data.confess_id}

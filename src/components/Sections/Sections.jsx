@@ -7,7 +7,10 @@ import BannerIcon from '../../styles/resources/icons/marketplace-icon.png';
 class SectionBanner extends Component {
     render() {
         return(
-            <article className="section_c banner advertisement">
+            <article className="section_c banner" style={{background: `url(${this.props.image})`}}>
+                <img className="image" src={BannerIcon}/>
+                <span className="title">{this.props.title}</span>
+                <span className="text">{this.props.text}</span>
             </article>
         )
     }

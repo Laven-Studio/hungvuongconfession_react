@@ -52,7 +52,7 @@ class Main extends Component {
             <Route exact path='/confession/:id' component={Confession}/>
             <Route path='/post/:post_id' component={PostPreview}/>
             <Route path='/market/:page' component={Market}/>
-            <Route path='/' component={Market}/>
+            <Route path='/' component={Home}/>
           </Switch>
         </main>
       )
